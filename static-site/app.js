@@ -207,16 +207,17 @@ function renderProductDetail() {
       <div class="product-summary">
         <p class="rating">${product.rating} / 5.0 (${product.reviews} reviews)</p>
         <div class="product-facts">
-          <p class="option-title">Name</p>
-          <h1>${product.name}</h1>
-          <p class="option-title">Price</p>
+          <h1 class="product-name">${product.name}</h1>
+          <p class="product-category">${product.category}</p>
           <div class="price">
-            <span class="compare">${currency.format(product.compare)}</span>
             <span class="sale">${currency.format(product.price)}</span>
+            <span class="compare">${currency.format(product.compare)}</span>
             <span class="discount">${discount(product)}% off</span>
           </div>
-          <p class="option-title">Description</p>
-          <p>${product.description}</p>
+          <div class="product-description">
+            <h2 class="desc-heading">Description</h2>
+            <p>${product.description}</p>
+          </div>
         </div>
         <form data-add-form>
           <p class="option-title">Size</p>
