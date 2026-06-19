@@ -10,7 +10,7 @@ const products = [
     tag: "Offer",
     image: "assets/flora-muse-1.png",
     images: ["assets/flora-muse-1.png", "assets/flora-muse-2.png", "assets/flora-muse-3.jpg"],
-    description: "Introducing the Flora Muse Blazer Dress, a playful blend of tailored elegance and feminine charm. Designed in a flattering blazer-style silhouette with delicate floral detailing, statement sleeves, functional pockets, soft lining, and refined finishing for an elevated look. Perfect for brunch dates, intimate celebrations, vacations, daytime events, cafe outings, and elegant gatherings. A timeless statement piece created to make everyday dressing feel effortlessly graceful and beautifully unique."
+    description: "Introducing the Flora Muse Blazer Dress \u2014 a playful blend of tailored elegance and feminine charm. Designed in a flattering blazer-style silhouette with delicate floral detailing, statement sleeves, functional pockets, soft lining, and refined finishing for an elevated look. Perfect for brunch dates, intimate celebrations, vacations, daytime events, caf\u00e9 outings, and elegant gatherings. A timeless statement piece created to make everyday dressing feel effortlessly graceful and beautifully unique."
   },
   {
     id: "pink-checks-coord",
