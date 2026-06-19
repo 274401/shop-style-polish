@@ -936,15 +936,71 @@ h2 {
 
 .product-facts {
   display: grid;
-  gap: 2px;
+  gap: 6px;
 }
 
 .product-facts .option-title {
   margin-top: 18px;
 }
 
-.product-facts h1 {
-  margin-bottom: 4px;
+.product-facts h1,
+.product-facts .product-name {
+  margin: 0 0 4px;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.product-category {
+  margin: 0 0 10px;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.product-summary .price {
+  margin: 10px 0 22px;
+  font-size: 22px;
+  align-items: center;
+}
+
+.product-summary .price .sale {
+  font-size: 26px;
+  color: #111;
+}
+
+.product-summary .price .compare {
+  font-size: 16px;
+}
+
+.product-summary .price .discount {
+  background: #f3e6e4;
+  color: #9f3e35;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+.product-description {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid #ececec;
+}
+
+.desc-heading {
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  color: #111;
+}
+
+.product-description p {
+  margin: 0;
+  color: #444;
+  line-height: 1.7;
 }
 
 .option-title {

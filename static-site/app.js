@@ -10,7 +10,7 @@ const products = [
     tag: "Offer",
     image: "assets/flora-muse-1.png",
     images: ["assets/flora-muse-1.png", "assets/flora-muse-2.png", "assets/flora-muse-3.jpg"],
-    description: "Introducing the Flora Muse Blazer Dress, a playful blend of tailored elegance and feminine charm. Designed in a flattering blazer-style silhouette with delicate floral detailing, statement sleeves, functional pockets, soft lining, and refined finishing for an elevated look. Perfect for brunch dates, intimate celebrations, vacations, daytime events, cafe outings, and elegant gatherings. A timeless statement piece created to make everyday dressing feel effortlessly graceful and beautifully unique."
+    description: "Introducing the Flora Muse Blazer Dress \u2014 a playful blend of tailored elegance and feminine charm. Designed in a flattering blazer-style silhouette with delicate floral detailing, statement sleeves, functional pockets, soft lining, and refined finishing for an elevated look. Perfect for brunch dates, intimate celebrations, vacations, daytime events, caf\u00e9 outings, and elegant gatherings. A timeless statement piece created to make everyday dressing feel effortlessly graceful and beautifully unique."
   },
   {
     id: "pink-checks-coord",
@@ -207,16 +207,17 @@ function renderProductDetail() {
       <div class="product-summary">
         <p class="rating">${product.rating} / 5.0 (${product.reviews} reviews)</p>
         <div class="product-facts">
-          <p class="option-title">Name</p>
-          <h1>${product.name}</h1>
-          <p class="option-title">Price</p>
+          <h1 class="product-name">${product.name}</h1>
+          <p class="product-category">${product.category}</p>
           <div class="price">
-            <span class="compare">${currency.format(product.compare)}</span>
             <span class="sale">${currency.format(product.price)}</span>
+            <span class="compare">${currency.format(product.compare)}</span>
             <span class="discount">${discount(product)}% off</span>
           </div>
-          <p class="option-title">Description</p>
-          <p>${product.description}</p>
+          <div class="product-description">
+            <h2 class="desc-heading">Description</h2>
+            <p>${product.description}</p>
+          </div>
         </div>
         <form data-add-form>
           <p class="option-title">Size</p>
