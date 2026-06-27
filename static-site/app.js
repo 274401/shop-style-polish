@@ -47,9 +47,13 @@ const products = [
     rating: "5.0",
     reviews: 2,
     tag: "New",
-    image: "assets/sunshine-marigold-1.png",
-    images: ["assets/sunshine-marigold-1.png", "assets/sunshine-marigold-2.png", "assets/sunshine-marigold-3.png"],
-    description: "\u201cMade for sunshine, compliments, and brunch plans.\u201d \u2600\ufe0f\ud83c\udf3c\u2728\n\nThe Sunshine Marigold Dress is a charming brunch-ready outfit featuring a flowy silhouette, elegant short jacket overlay, floral detailing, functional pockets, and soft lining. Designed for comfort, confidence, and effortless style. Available in Yellow, Orange, Pastel Pink."
+    image: "assets/sunshine-yellow-1.jpg",
+    images: ["assets/sunshine-yellow-1.jpg", "assets/sunshine-yellow-2.png", "assets/sunshine-yellow-3.png", "assets/sunshine-yellow-4.png", "assets/sunshine-yellow-5.png", "assets/sunshine-yellow-6.jpg"],
+    colors: [
+      { name: "Yellow", swatch: "#f5c518", images: ["assets/sunshine-yellow-1.jpg", "assets/sunshine-yellow-2.png", "assets/sunshine-yellow-3.png", "assets/sunshine-yellow-4.png", "assets/sunshine-yellow-5.png", "assets/sunshine-yellow-6.jpg"] },
+      { name: "Orange", swatch: "#e87722", images: ["assets/sunshine-marigold-1.png", "assets/sunshine-marigold-2.png", "assets/sunshine-marigold-3.png"] }
+    ],
+    description: "\u201cMade for sunshine, compliments, and brunch plans.\u201d \u2600\ufe0f\ud83c\udf3c\u2728\n\nThe Sunshine Marigold Dress is a charming brunch-ready outfit featuring a flowy silhouette, elegant short jacket overlay, floral detailing, functional pockets, and soft lining. Designed for comfort, confidence, and effortless style. Available in Yellow and Orange."
   }
 ];
 
