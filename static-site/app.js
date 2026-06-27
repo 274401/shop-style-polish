@@ -47,9 +47,13 @@ const products = [
     rating: "5.0",
     reviews: 2,
     tag: "New",
-    image: "assets/sunshine-marigold-1.png",
-    images: ["assets/sunshine-marigold-1.png", "assets/sunshine-marigold-2.png", "assets/sunshine-marigold-3.png"],
-    description: "\u201cMade for sunshine, compliments, and brunch plans.\u201d \u2600\ufe0f\ud83c\udf3c\u2728\n\nThe Sunshine Marigold Dress is a charming brunch-ready outfit featuring a flowy silhouette, elegant short jacket overlay, floral detailing, functional pockets, and soft lining. Designed for comfort, confidence, and effortless style. Available in Yellow, Orange, Pastel Pink."
+    image: "assets/sunshine-yellow-1.jpg",
+    images: ["assets/sunshine-yellow-1.jpg", "assets/sunshine-yellow-2.png", "assets/sunshine-yellow-3.png", "assets/sunshine-yellow-4.png", "assets/sunshine-yellow-5.png", "assets/sunshine-yellow-6.jpg"],
+    colors: [
+      { name: "Yellow", swatch: "#f5c518", images: ["assets/sunshine-yellow-1.jpg", "assets/sunshine-yellow-2.png", "assets/sunshine-yellow-3.png", "assets/sunshine-yellow-4.png", "assets/sunshine-yellow-5.png", "assets/sunshine-yellow-6.jpg"] },
+      { name: "Orange", swatch: "#e87722", images: ["assets/sunshine-marigold-1.png", "assets/sunshine-marigold-2.png", "assets/sunshine-marigold-3.png"] }
+    ],
+    description: "\u201cMade for sunshine, compliments, and brunch plans.\u201d \u2600\ufe0f\ud83c\udf3c\u2728\n\nThe Sunshine Marigold Dress is a charming brunch-ready outfit featuring a flowy silhouette, elegant short jacket overlay, floral detailing, functional pockets, and soft lining. Designed for comfort, confidence, and effortless style. Available in Yellow and Orange."
   }
 ];
 
@@ -167,6 +171,7 @@ function renderProductDetail() {
             <span class="compare">${currency.format(product.compare)}</span>
             <span class="discount">${discount(product)}% off</span>
           </div>
+          ${product.colors ? `<div class="color-options"><p class="option-title">Color: <span data-color-name>${product.colors[0].name}</span></p><div class="color-swatches">${product.colors.map((c, i) => `<button type="button" class="color-swatch${i === 0 ? " active" : ""}" data-color="${c.name}" data-color-images='${JSON.stringify(c.images)}' aria-label="${c.name}" title="${c.name}" style="background:${c.swatch}"></button>`).join("")}</div></div>` : ""}
           <div class="product-description">
             <h2 class="desc-heading">Description</h2>
             <p>${product.description}</p>
@@ -212,6 +217,32 @@ function renderProductDetail() {
       btn.classList.add("active");
     });
   });
+
+  mount.querySelectorAll("[data-color]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const imgs = JSON.parse(btn.getAttribute("data-color-images"));
+      const name = btn.getAttribute("data-color");
+      const main = mount.querySelector("[data-main-image]");
+      if (main) main.src = imgs[0];
+      const nameEl = mount.querySelector("[data-color-name]");
+      if (nameEl) nameEl.textContent = name;
+      const thumbRow = mount.querySelector(".thumb-row");
+      if (thumbRow) {
+        thumbRow.innerHTML = imgs.map((src, i) => `<button type="button" class="thumb${i === 0 ? " active" : ""}" data-thumb="${src}"><img src="${src}" alt="${name} ${i + 1}"/></button>`).join("");
+        thumbRow.querySelectorAll("[data-thumb]").forEach((t) => {
+          t.addEventListener("click", () => {
+            const src = t.getAttribute("data-thumb");
+            if (main) main.src = src;
+            thumbRow.querySelectorAll(".thumb").forEach((x) => x.classList.remove("active"));
+            t.classList.add("active");
+          });
+        });
+      }
+      mount.querySelectorAll(".color-swatch").forEach((s) => s.classList.remove("active"));
+      btn.classList.add("active");
+    });
+  });
+
 
   mount.querySelector("[data-add-form]").addEventListener("submit", (event) => {
     event.preventDefault();

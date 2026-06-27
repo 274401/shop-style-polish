@@ -1518,3 +1518,8 @@ h2 {
   text-transform: uppercase; color: #111;
   border-bottom: 1px solid #eee;
 }
+
+.color-options { margin: 14px 0; }
+.color-swatches { display: flex; gap: 10px; margin-top: 6px; }
+.color-swatch { width: 32px; height: 32px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 0 1px #ccc; cursor: pointer; padding: 0; transition: box-shadow .15s; }
+.color-swatch.active { box-shadow: 0 0 0 2px #111; }
