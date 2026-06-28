@@ -1055,6 +1055,33 @@ h2 {
   margin: 20px 0;
 }
 
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 46px;
+  padding: 0 24px;
+  border: 1px solid #25d366;
+  border-radius: 4px;
+  color: #fff;
+  background: #25d366;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.whatsapp-button:hover {
+  background: #1ebd58;
+  border-color: #1ebd58;
+}
+
+.whatsapp-button svg {
+  width: 20px;
+  height: 20px;
+}
+
 .quantity input {
   min-height: 46px;
   padding: 0 12px;
