@@ -71,9 +71,7 @@ const products = [
   image: "assets/1.1.jpeg",
   images: [
     "assets/1.1.jpeg",
-    "assets/1.2.png",
-    "assets/ivory-coord-3.jpg",
-    "assets/ivory-coord-4.jpg"
+    "assets/1.2.PNG",
   ],
   colors: [
     {
@@ -89,9 +87,38 @@ const products = [
 
   //description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
 },
+
+{
+  id: "ivory-coord-set",
+  name: "Ivory Elegance Co-Ord Set",
+  category: "Co-Ords",
+  price: 3299,
+  compare: 3199,
+  rating: "5.0",
+  reviews: 8,
+  tag: "New",
+  image: "assets/1.1.jpeg",
+  images: [
+    "assets/1.1.jpeg",
+    "assets/1.2.PNG",
+  ],
+  colors: [
+    {
+      name: "Ivory",
+      images: [
+        "assets/2.1.jpeg",
+        "assets/2.2.PNG",
+        
+      ]
+    },
+  ],
+ description: "A stylish denim co-ord set designed for effortless everyday dressing. Comfortable, versatile, and easy to style for casual outings, travel, or weekend plans."
+
+  //description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
+},
 {
   id: "urban-denim-coord",
-  name: "Urban Denim Co-Ord Set",
+  name: "Urban Denim Dresses",
   category: "Denim",
   price: 2999,
   compare: 3499,
@@ -105,7 +132,7 @@ const products = [
 
 {
   id: "classic-blue-coord",
-  name: "Classic Blue Co-Ord Set",
+  name: "Classic Blue Denim Dresses",
   category: "Denim",
   price: 2999,
   compare: 3499,
@@ -119,7 +146,7 @@ const products = [
 
 {
   id: "midnight-denim-coord",
-  name: "Midnight Denim Co-Ord Set",
+  name: "Midnight Denim Dresses",
   category: "Denim",
   price: 2999,
   compare: 3499,
@@ -133,7 +160,7 @@ const products = [
 
 {
   id: "skyline-coord-set",
-  name: "Skyline Denim Co-Ord",
+  name: "Skyline Denim Dresses",
   category: "Denim",
   price: 2999,
   compare: 3499,
@@ -147,7 +174,7 @@ const products = [
 
 {
   id: "everyday-denim-coord",
-  name: "Everyday Denim Co-Ord",
+  name: "Everyday Denim Dresses",
   category: "Denim",
   price: 2999,
   compare: 3499,
@@ -161,7 +188,7 @@ const products = [
 
 {
   id: "vintage-wash-coord",
-  name: "Vintage Wash Co-Ord",
+  name: "Vintage Wash Denim Dresses",
   category: "Denim",
   price: 2999,
   compare: 3499,
@@ -175,7 +202,7 @@ const products = [
 
 {
   id: "weekend-denim-coord",
-  name: "Weekend Denim Co-Ord",
+  name: "Weekend Denim Dresses",
   category: "Denim",
   price: 2999,
   compare: 3499,
@@ -189,7 +216,7 @@ const products = [
 
 {
   id: "signature-denim-coord",
-  name: "Signature Denim Co-Ord",
+  name: "Signature Denim Dresses",
   category: "Denim",
   price: 2999,
   compare: 3499,
