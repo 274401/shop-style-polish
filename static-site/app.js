@@ -43,6 +43,59 @@ const products = [
     description: "A stunning crimson midi dress featuring a gathered crossover bodice, soft draped sleeves, and a flowy silhouette. Designed to flatter every curve while offering effortless elegance for cocktail nights, festive occasions, and special celebrations."
   },
   {
+    id: "Olive belle Dress",
+    name: "Olive belle Dress",
+    category: "Dresses",
+    price: 2499,
+    compare: 2899,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/dress1.PNG",
+    images: ["assets/dress1.PNG", "assets/dress2.PNG", "assets/dress3.PNG",],
+    description: "The Olive Dress features a flattering fit-and-flare silhouette with voluminous puff sleeves, a V-neckline, and fabric-covered button detailing. Crafted for comfort and elegance, it's the perfect choice for celebrations, brunch dates, festive occasions, and evening outings."
+  },
+  {
+    id: "Azure Belle Dress",
+    name: "Azure Belle Dress",
+    category: "Dresses",
+    price: 2499,
+    compare: 2899,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/dress4.PNG",
+    images: ["assets/dress4.PNG", "assets/dress5.PNG", "assets/dress6.PNG",],
+    description: "The Azure Belle Dress is designed to make every moment feel effortlessly elegant. Featuring statement puff sleeves, a flattering V-neckline, and a flowy fit-and-flare silhouette, this midi dress blends timeless femininity with modern charm. Whether you're headed to brunch, a celebration, or an evening out, it's a piece you'll reach for again and again."
+  },
+    {
+    id: "Midnight Belle Dress",
+    name: "Midnight Belle Dress",
+    category: "Dresses",
+    price: 2499,
+    compare: 2899,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/dress7.PNG",
+    images: ["assets/dress7.PNG", "assets/dress8.PNG", "assets/dress9.PNG",],
+    description: "The Midnight Belle Dress is a timeless statement piece designed for effortless elegance. Crafted in a rich navy hue, it features dramatic puff sleeves, a flattering V-neckline, fabric-covered button detailing, and a beautifully flowing fit-and-flare silhouette. Perfect for dinners, celebrations, festive occasions, and evening soirées, this midi dress blends sophistication with all-day comfort."
+  },
+    {
+    id: "Candy kiss Dress",
+    name: "Candy kiss Dress",
+    category: "Dresses",
+    price: 2899,
+    compare: 3199,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/dress10.PNG",
+    images: ["assets/dress10.PNG", "assets/dress11.PNG", "assets/dress12.PNG","assets/dress13.PNG",],
+    description: "A charming white midi dress featuring handcrafted scarlet floral appliqués, a flattering fit-and-flare silhouette, and a statement contrast pocket. The Candy Kiss Dress is perfect for brunches, holidays, celebrations, and special occasions."
+  },
+  
+  {
     id: "sunshine-marigold-dress",
     name: "Sunshine Marigold Dress",
     category: "Dresses",
@@ -81,7 +134,7 @@ const products = [
 {
   id: "ivory-coord-set2",
   name: "Ivory Elegance Co-Ord Set",
-  category: "Co-Ords",
+  category: "Co",
   price: 3299,
   compare: 3199,
   rating: "5.0",
@@ -90,7 +143,7 @@ const products = [
   image: "assets/2.1.jpeg",
   images: [
     "assets/2.1.jpeg",
-    "assets/2.2.PNG",
+
   ],
  
  description: "A stylish denim co-ord set designed for effortless everyday dressing. Comfortable, versatile, and easy to style for casual outings, travel, or weekend plans."
