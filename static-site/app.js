@@ -2,6 +2,69 @@ const products = [
   {
     id: "denim-long-dress",
     name: "Flora Muse Blazer Dress",
+    category: "Co-Ords",
+    price: 2399,
+    compare: 2999,
+    rating: "5.0",
+    reviews: 4,
+    tag: "Offer",
+   image: "assets/flora-muse-1.png",
+    images: ["assets/flora-muse-1.png", "assets/flora-muse-2.png", "assets/flora-muse-3.jpg", "assets/flora-muse-4.jpeg", "assets/flora-muse-5.jpeg"],
+    colors: [
+      { name: "Violet", swatch: "#800080", images: ["assets/flora-muse-1.jpg", "assets/flora-muse-2.jpg", "assets/flora-muse-3.jpg", "assets/flora-muse-4.jpeg", "assets/flora-muse-5.jpeg"] },
+      { name: "Royal Blue", swatch: "#4169E1", images: ["assets/flora1.jpeg", "assets/flora2.jpeg", "assets/flora3.jpeg", "assets/flora4.jpeg", "assets/flora5.jpeg"] }
+    ],
+    description: "Introducing the Flora Muse Blazer Dress \u2014 a playful blend of tailored elegance and feminine charm. Designed in a flattering blazer-style silhouette with delicate floral detailing, statement sleeves, functional pockets, soft lining, and refined finishing for an elevated look. Perfect for brunch dates, intimate celebrations, vacations, daytime events, caf\u00e9 outings, and elegant gatherings. A timeless statement piece created to make everyday dressing feel effortlessly graceful and beautifully unique."
+  },
+  {
+    id: "celeste-ruched-sleeve-dress",
+    name: "Celeste Ruched Sleeve Dress",
+    category: "Co-Ords",
+    price: 2899,
+    compare: 3625,
+    rating: "5.0",
+    reviews: 3,
+    tag: "New",
+    image: "assets/celeste-1.png",
+    images: ["assets/celeste-1.png", "assets/celeste-2.png", "assets/celeste-3.png", "assets/celeste-4.png"],
+    description: "Introducing the Celeste Ruched Sleeve Dress \u2014 where tailored structure meets soft femininity. Designed in a chic blazer-style silhouette with statement ruched sleeves, smooth lining for comfort, functional pockets, and refined collar pasting for a polished finish. Perfect for brunch dates, birthday celebrations, intimate events, resort evenings, work lunches, and elegant day outings. A timeless piece made to feel effortless, elevated, and beautifully put together wherever you wear it."
+  },
+  {
+    id: "scarlet-kiss-dress",
+    name: "Scarlet Kiss Dress",
+    category: "Co-Ords",
+    price: 2799,
+    compare: 3200,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/scarlet-1.jpg",
+    images: ["assets/scarlet-1.jpg", "assets/scarlet-2.jpg", "assets/scarlet-3.png", "assets/scarlet-4.png", "assets/scarlet-5.png"],
+    description: "A stunning crimson midi dress featuring a gathered crossover bodice, soft draped sleeves, and a flowy silhouette. Designed to flatter every curve while offering effortless elegance for cocktail nights, festive occasions, and special celebrations."
+  },
+  {
+    id: "sunshine-marigold-dress",
+    name: "Sunshine Marigold Dress",
+    category: "Co-Ords",
+    price: 2299,
+    compare: 2650,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/sunshine-yellow-1.jpg",
+    images: ["assets/sunshine-yellow-1.jpg", "assets/sunshine-yellow-2.png", "assets/sunshine-yellow-3.png", "assets/sunshine-yellow-4.png", "assets/sunshine-yellow-5.png", "assets/sunshine-yellow-6.jpg"],
+    colors: [
+      { name: "Yellow", swatch: "#f5c518", images: ["assets/sunshine-yellow-1.jpg", "assets/sunshine-yellow-2.png", "assets/sunshine-yellow-3.png", "assets/sunshine-yellow-4.png", "assets/sunshine-yellow-5.png", "assets/sunshine-yellow-6.jpg"] },
+      { name: "Orange", swatch: "#e87722", images: ["assets/sunshine-marigold-1.png", "assets/sunshine-marigold-2.png", "assets/sunshine-marigold-3.png"] }
+    ],
+    description: "\u201cMade for sunshine, compliments, and brunch plans.\u201d \u2600\ufe0f\ud83c\udf3c\u2728\n\nThe Sunshine Marigold Dress is a charming brunch-ready outfit featuring a flowy silhouette, elegant short jacket overlay, floral detailing, functional pockets, and soft lining. Designed for comfort, confidence, and effortless style. Available in Yellow and Orange."
+  }
+];
+
+const products = [
+  {
+    id: "denim-long-dress",
+    name: "Flora Muse Blazer Dress",
     category: "Dresses",
     price: 2399,
     compare: 2999,
