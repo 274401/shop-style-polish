@@ -85,83 +85,124 @@ const products = [
       ]
     },
   ],
-  description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
+ description: "A stylish denim co-ord set designed for effortless everyday dressing. Comfortable, versatile, and easy to style for casual outings, travel, or weekend plans."
+
+  //description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
 },
-
 {
-  id: "sage-linen-coord",
-  name: "Sage Linen Co-Ord Set",
-  category: "Co-Ords",
-  price: 3299,
-  compare: 3499,
-  rating: "4.9",
-  reviews: 12,
-  tag: "Best Seller",
-  image: "assets/2.1.jpeg",
-  images: [
-    "assets/2.1.jpeg",
-    "assets/2.2.PNG",
-
-  ],
-  description: "Minimal yet elegant linen co-ord set with a relaxed silhouette, perfect for everyday luxury and comfortable all-day wear."
-},
-
-{
-  id: "midnight-black-coord",
-  name: "Midnight Black Co-Ord Set",
-  category: "Co-Ords",
+  id: "urban-denim-coord",
+  name: "Urban Denim Co-Ord Set",
+  category: "Denim",
   price: 2999,
-  compare: 3799,
+  compare: 3499,
   rating: "5.0",
-  reviews: 16,
-  tag: "Trending",
-  image: "assets/midnight-coord-1.jpg",
-  images: [
-    "assets/midnight-coord-1.jpg",
-    "assets/midnight-coord-2.jpg",
-    "assets/midnight-coord-3.jpg",
-    "assets/midnight-coord-4.jpg"
-  ],
-  description: "A sophisticated black co-ord set with tailored trousers and a structured top. Ideal for parties, dinners, vacations and special occasions."
-},
-
-{
-  id: "rose-pink-coord",
-  name: "Rose Pink Co-Ord Set",
-  category: "Co-Ords",
-  price: 2499,
-  compare: 3099,
-  rating: "4.9",
-  reviews: 7,
+  reviews: 8,
   tag: "New",
-  image: "assets/rose-coord-1.jpg",
-  images: [
-    "assets/rose-coord-1.jpg",
-    "assets/rose-coord-2.jpg",
-    "assets/rose-coord-3.jpg",
-    "assets/rose-coord-4.jpg"
-  ],
-  description: "Soft pink co-ord featuring a stylish crop top and high-waist pants. Designed for comfort with a modern feminine look."
+  image: "assets/D1.jpeg",
+  images: ["assets/D1.jpeg"],
+  description: "A timeless denim dress with a flattering fit and everyday comfort. Perfect for casual days, brunch dates, and effortless street-style looks."
 },
 
 {
-  id: "ocean-blue-coord",
-  name: "Ocean Blue Co-Ord Set",
-  category: "Co-Ords",
-  price: 2699,
-  compare: 3399,
+  id: "classic-blue-coord",
+  name: "Classic Blue Co-Ord Set",
+  category: "Denim",
+  price: 2999,
+  compare: 3499,
   rating: "5.0",
   reviews: 10,
+  tag: "Trending",
+  image: "assets/D2.PNG",
+  images: ["assets/D2.PNG"],
+  description: "A timeless denim dress with a flattering fit and everyday comfort. Perfect for casual days, brunch dates, and effortless street-style looks."
+},
+
+{
+  id: "midnight-denim-coord",
+  name: "Midnight Denim Co-Ord Set",
+  category: "Denim",
+  price: 2999,
+  compare: 3499,
+  rating: "5.0",
+  reviews: 12,
+  tag: "Best Seller",
+  image: "assets/D3.jpeg",
+  images: ["assets/D3.jpeg"],
+  description: "A timeless denim dress with a flattering fit and everyday comfort. Perfect for casual days, brunch dates, and effortless street-style looks."
+},
+
+{
+  id: "skyline-coord-set",
+  name: "Skyline Denim Co-Ord",
+  category: "Denim",
+  price: 2999,
+  compare: 3499,
+  rating: "5.0",
+  reviews: 6,
+  tag: "New",
+  image: "assets/D4.PNG",
+  images: ["assets/D4.PNG"],
+  description: "A timeless denim dress with a flattering fit and everyday comfort. Perfect for casual days, brunch dates, and effortless street-style looks."
+},
+
+{
+  id: "everyday-denim-coord",
+  name: "Everyday Denim Co-Ord",
+  category: "Denim",
+  price: 2999,
+  compare: 3499,
+  rating: "5.0",
+  reviews: 9,
   tag: "Offer",
-  image: "assets/ocean-coord-1.jpg",
-  images: [
-    "assets/ocean-coord-1.jpg",
-    "assets/ocean-coord-2.jpg",
-    "assets/ocean-coord-3.jpg",
-    "assets/ocean-coord-4.jpg"
-  ],
-  description: "Elegant blue co-ord set with premium fabric and relaxed tailoring. A perfect blend of comfort and sophistication."
+  image: "assets/D5.PNG",
+  images: ["assets/D5.PNG"],
+  description: "A timeless denim dress with a flattering fit and everyday comfort. Perfect for casual days, brunch dates, and effortless street-style looks."
+},
+
+{
+  id: "vintage-wash-coord",
+  name: "Vintage Wash Co-Ord",
+  category: "Denim",
+  price: 2999,
+  compare: 3499,
+  rating: "5.0",
+  reviews: 11,
+  tag: "Trending",
+  image: "assets/D6.PNG",
+  images: ["assets/D6.PNG"],
+  description: "A timeless denim dress with a flattering fit and everyday comfort. Perfect for casual days, brunch dates, and effortless street-style looks."
+},
+
+{
+  id: "weekend-denim-coord",
+  name: "Weekend Denim Co-Ord",
+  category: "Denim",
+  price: 2999,
+  compare: 3499,
+  rating: "5.0",
+  reviews: 7,
+  tag: "New",
+  image: "assets/D7.jpeg",
+  images: ["assets/D7.jpeg"],
+  description: "A timeless denim dress with a flattering fit and everyday comfort. Perfect for casual days, brunch dates, and effortless street-style looks."
+},
+
+{
+  id: "signature-denim-coord",
+  name: "Signature Denim Co-Ord",
+  category: "Denim",
+  price: 2999,
+  compare: 3499,
+  rating: "5.0",
+  reviews: 13,
+  tag: "Best Seller",
+  image: "assets/D8.PNG",
+  images: ["assets/D8.PNG"],
+  description: "A timeless denim dress with a flattering fit and everyday comfort. Perfect for casual days, brunch dates, and effortless street-style looks."
 }
+
+
+
 ];
 
 const categories = [
