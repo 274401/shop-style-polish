@@ -93,6 +93,35 @@ const products = [
     image: "assets/dress11.PNG",
     images: ["assets/dress11.PNG", "assets/dress10.PNG", "assets/dress12.PNG","assets/dress13.PNG",],
     description: "A charming white midi dress featuring handcrafted scarlet floral appliqués, a flattering fit-and-flare silhouette, and a statement contrast pocket. The Candy Kiss Dress is perfect for brunches, holidays, celebrations, and special occasions."
+  },  {
+    id: "Ivory Outline Dress",
+    name: "Ivory Outline Dress",
+    category: "Dresses",
+    price: 2399,
+    compare: 2599,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/d1.11.PNG",
+    images: ["assets/d1.11.PNG", "assets/d1.1.PNG", "assets/d1.2.PNG","assets/d1.4.PNG",],
+    description: "Timeless, effortless, and made for everyday elegance. The Ivory Outline Dress features a flowy A-line silhouette with contrast black piping, a smart collared neckline, and functional side pockets. Crafted from breathable premium cotton, it offers all-day comfort while maintaining a polished look. Style it with heels for brunch or flats for a relaxed day out."
+  },
+   {
+    id: "Noir Outline Dress",
+    name: "Noir Outline Dress",
+    category: "Dresses",
+    price: 2399,
+    compare: 2599,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/d2.1.PNG",
+    images: ["assets/d2.1.PNG", "assets/d2.2.PNG", "assets/d2.3.PNG",],
+    colors: [
+      { name: "Violet", swatch: "#000000", images: ["assets/d2.1.PNG", "assets/d2.2.PNG", "assets/d2.3.PNG",] },
+      { name: "Royal Blue", swatch: "#ffffff", images: ["assets/d1.11.PNG", "assets/d1.1.PNG", "assets/d1.2.PNG","assets/d1.4.PNG",] }
+    ],
+    description: "A timeless wardrobe staple with a contemporary edge. The Noir Outline Dress is tailored in a flattering A-line silhouette and elevated with crisp white contrast piping for a refined finish. Featuring a smart collared neckline, functional side pockets, and breathable premium cotton fabric, it's designed to take you effortlessly from casual days to elegant evenings."
   },
   
   {
@@ -127,6 +156,28 @@ const products = [
     "assets/1.2.PNG",
   ],
  description: "A stylish denim co-ord set designed for effortless everyday dressing. Comfortable, versatile, and easy to style for casual outings, travel, or weekend plans."
+
+  //description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
+},
+  {
+  id: "Dori Coord Set",
+  name: "Dori Coord Set",
+  category: "Co-Ords",
+  price: 2899,
+  compare: 3199,
+  rating: "5.0",
+  reviews: 8,
+  tag: "New",
+  image: "assets/m1.PNG",
+  images: [
+    "assets/m1.PNG",
+    "assets/m2.PNG",
+    "assets/m3.PNG",
+    "assets/m4.PNG",
+    "assets/m5.jpeg",
+    ,
+  ],
+ description: "A statement in effortless elegance, the Dori Coord Set features a textured collared shirt adorned with delicate dori detailing and soft ruffle accents, paired with relaxed wide-leg trousers. Crafted from breathable premium fabric, it's the perfect blend of comfort and contemporary style for brunches, workdays, and festive gatherings."
 
   //description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
 },
