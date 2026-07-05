@@ -159,6 +159,45 @@ const products = [
 
   //description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
 },
+  
+  {
+    id: "Flora Dress",
+    name: "Flora Dress",
+    category: "Dresses",
+    price: 2799,
+    compare: 2999,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/b1.png",
+    images: ["assets/b1.png", "assets/b2.png", "assets/b3.PNG", "assets/b4.PNG",],
+    colors: [
+      { name: "Blue", swatch: "#0c14ee", images: ["assets/b1.png", "assets/b2.png", "assets/b3.PNG", "assets/b4.PNG", ] },
+      { name: "Green", swatch: "#0e8f2c", images: ["assets/g1.png","assets/g2.png","assets/g3.PNG", "assets/g4.PNG","assets/g5.PNG"] }
+    ],
+    description: "A graceful statement piece designed to blend comfort with contemporary elegance. The Flora Dress features a relaxed A-line silhouette, elevated with beautifully handcrafted floral appliqué detailing across the waist for a refined, artistic touch. Finished with a flattering V-neckline, subtle stitch detailing on the sleeves and hem, functional side pockets, and breathable premium cotton fabric, it's designed to take you effortlessly from casual outings to special occasions with timeless style and comfort."
+  },
+
+,
+  
+  {
+    id: "Blossom Pearl Dress",
+    name: "Blossom Pearl Dress",
+    category: "Dresses",
+    price: 3299,
+    compare: 3499,
+    rating: "5.0",
+    reviews: 2,
+    tag: "New",
+    image: "assets/f1.png",
+    images: ["assets/f1.png", "assets/f3.png", "assets/f.png", "assets/f4.PNG",],
+    colors: [
+      { name: "Purple", swatch: "#680481", images: ["assets/f1.png", "assets/f3.png", "assets/f.PNG", "assets/f4.PNG", ] },
+      { name: "Black", swatch: "#000000", images: ["assets/b11.png", "assets/b12.png" ] }
+    ],
+    description: "A graceful blend of elegance and statement detailing, the Blossom Pearl Dress is designed to make every occasion feel special. Featuring a classic straight silhouette, delicate pearl embellishments along the neckline, and beautifully handcrafted floral accents on the sleeves and waist, this dress brings timeless charm with a modern touch. Crafted in premium breathable cotton with functional side pockets, it's the perfect choice for brunches, celebrations, festive gatherings, and elegant evenings."
+  },
+
   {
   id: "Dori Coord Set",
   name: "Dori Coord Set",
@@ -177,7 +216,36 @@ const products = [
     "assets/m5.jpeg",
     ,
   ],
+
  description: "A statement in effortless elegance, the Dori Coord Set features a textured collared shirt adorned with delicate dori detailing and soft ruffle accents, paired with relaxed wide-leg trousers. Crafted from breathable premium fabric, it's the perfect blend of comfort and contemporary style for brunches, workdays, and festive gatherings."
+
+  //description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
+},
+,
+  {
+  id: "charn coord-set",
+  name: "Charn Coord Set",
+  category: "Co-Ords",
+  price: 2599,
+  compare: 2799,
+  rating: "5.0",
+  reviews: 8,
+  tag: "New",
+  image: "assets/p1.png",
+  images: [
+    "assets/p1.png",
+    "assets/p2.png",
+    "assets/p3.PNG",
+    "assets/p4.PNG",
+    "assets/p5.PNG",
+    ,
+  ],
+colors: [
+      { name: "sage green", swatch: "#96AF88", images: ["assets/p1.png","assets/p2.png","assets/p3.PNG","assets/p4.PNG","assets/p5.PNG"] },
+      { name: "white", swatch: "#ffffff", images: ["assets/c1.png","assets/c2.png","assets/c3.PNG",] }
+    ],
+
+ description: "Effortless elegance meets everyday comfort. The Charm Coord Set features a relaxed straight-fit silhouette with statement tassel detailing, contrast borders, and flowy wide-leg pants for a polished yet easy-going look. Crafted from breathable premium fabric with functional side pockets, it's the perfect choice for brunches, vacations, festive gatherings, and everything in between."
 
   //description: "A premium two-piece co-ord set featuring a relaxed-fit shirt and matching trousers. Crafted from soft breathable fabric for effortless style, perfect for brunches, travel, work and evening outings."
 },
