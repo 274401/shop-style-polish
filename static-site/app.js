@@ -169,10 +169,10 @@ const products = [
     rating: "5.0",
     reviews: 2,
     tag: "New",
-    image: "assets/b1.png",
-    images: ["assets/b1.png", "assets/b2.png", "assets/b3.PNG", "assets/b4.PNG",],
+    image: "assets/b1.PNG",
+    images: ["assets/b1.PNG", "assets/b2.png", "assets/b3.png", "assets/b4.PNG",],
     colors: [
-      { name: "Blue", swatch: "#0c14ee", images: ["assets/b1.png", "assets/b2.png", "assets/b3.PNG", "assets/b4.PNG", ] },
+      { name: "Blue", swatch: "#0c14ee", images: ["assets/b1.PNG", "assets/b2.png", "assets/b3.png", "assets/b4.PNG", ] },
       { name: "Green", swatch: "#0e8f2c", images: ["assets/g1.png","assets/g2.png","assets/g3.PNG", "assets/g4.PNG","assets/g5.PNG"] }
     ],
     description: "A graceful statement piece designed to blend comfort with contemporary elegance. The Flora Dress features a relaxed A-line silhouette, elevated with beautifully handcrafted floral appliqué detailing across the waist for a refined, artistic touch. Finished with a flattering V-neckline, subtle stitch detailing on the sleeves and hem, functional side pockets, and breathable premium cotton fabric, it's designed to take you effortlessly from casual outings to special occasions with timeless style and comfort."
@@ -189,7 +189,7 @@ const products = [
     rating: "5.0",
     reviews: 2,
     tag: "New",
-    image: "assets/f1.png",
+    image: "assets/f1.PNG",
     images: ["assets/f1.png", "assets/f3.png", "assets/f.png", "assets/f4.PNG",],
     colors: [
       { name: "Purple", swatch: "#680481", images: ["assets/f1.png", "assets/f3.png", "assets/f.PNG", "assets/f4.PNG", ] },
